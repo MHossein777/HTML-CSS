@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#introduction {
+
+    width: auto;
+    height: 70vh;
+    padding: 25px;
+    line-height: 30px;
+    background: url('./images/6.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+h2 {
+    padding: 70px;
+    font-size: xx-large;
+}
+
+#p1 {
+    font-size: 25px;
+
+    line-height: 40px;
+}
+
+#p1::first-line {
+    font-weight: bold;
+}
+
+#p1::first-letter {
+    font-size: 3rem;
+}
+
+#p1:hover {
+    background: linear-gradient(rgba(251, 1, 1, 0.5),rgba(251, 1, 1, 0.5));
+}
+
+
+#paragraph {
+    background: url(./images/7.jpg);
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    background-attachment: fixed;
+    padding: 25px;
+    line-height: 30px;
+
+}
+
+
+#F35ABC {
+
+    background: url(./images/8.jpg);
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    background-attachment: fixed;
+    height: 128vh;
+
+}
+
+.paragraph {
+    font-size: 20px;
+    padding: 25px;
+    line-height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.paragraph:hover {
+    background: linear-gradient(rgba(251, 1, 1, 0.5), rgba(251, 1, 1, 0.5));
+
+}
+
+#table {
+    background: url("./images/1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 510px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#table:hover {
+    color: rgb(253, 109, 20);
+}
+
+#F35A::before {
+    content: "F35A";
+    font-weight: bolder
+}
+
+#F35B::before {
+    content: "F35B";
+    font-weight: bolder
+}
+
+#F35C::before {
+    content: "F35C";
+    font-weight: bolder
+}

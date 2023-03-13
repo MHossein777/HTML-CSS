@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#introduction {
+
+    width: auto;
+    height: 80vh;
+    padding: 25px;
+    line-height: 30px;
+    background: url('./images/5.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+h2 {
+    padding: 70px;
+    font-size: xx-large;
+}
+
+#p1 {
+    font-size: 25px;
+
+    line-height: 40px;
+}
+
+#p1::first-line {
+    font-weight: bold;
+}
+
+#p1::first-letter {
+    font-size: 3rem;
+}
+
+#p1:hover {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+}
+
+
+#paragraph {
+    background: url(./images/2.jpg);
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    background-attachment: fixed;
+    padding: 25px;
+    line-height: 30px;
+
+}
+
+
+#F35ABC {
+
+    background: url(./images/3.jpg);
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    background-attachment: fixed;
+    height: 125vh;
+
+}
+
+.paragraph {
+    font-size: 20px;
+    padding: 25px;
+    line-height: 30px;
+
+}
+
+.paragraph:hover {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+
+}
+
+#table {
+    background: url("./images/4.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 510px;
+    font-size: 20px;
+
+}
+
+#table:hover {
+    color: rgb(251, 255, 0);
+}
+
+#F35A::before {
+    content: "F35A";
+    font-weight: bolder
+}
+
+#F35B::before {
+    content: "F35B";
+    font-weight: bolder
+}
+
+#F35C::before {
+    content: "F35C";
+    font-weight: bolder
+}
+
+.navigation {
+    font-size: 20px;
+    padding: 8px;
+    margin: 7px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.navigation {
+    color: black;
+}
+
+.navigation:visited {
+    color: red;
+}
+
+.navigation:hover {
+    color: blue;
+}
+
+.navigation:active {
+    color: green;
+}
+
+
+
+.sub2-a
+{
+
+    margin-left: 800px;
+    margin-right: 800px; ;
+    margin-top: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    display: block;
+}
+
+.sub2-a:visited {
+    color: red;
+}
+
+.sub2-a:hover {
+    color: blue;
+}
+
+.sub2-a:active {
+    color: green;
+}
+.sub2-a
+{
+    color: aliceblue;
+}
+
+
